@@ -24,7 +24,7 @@
 /* Body background image */
 body {
     font-family: Arial, sans-serif; /* Default font for other elements */
-    background-image: url('PhotographyTracker/background.jpg'); /* Path to your background image */
+    background-image: url('./background.jpg'); /* Path to your background image */
     background-size: cover; /* Cover the entire page */
     background-position: center; /* Center the background image */
     background-attachment: fixed; /* Fix the background image in place */
