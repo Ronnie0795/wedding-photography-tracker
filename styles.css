@@ -1,0 +1,104 @@
+/* Apply Great Vibes font to the h1 element */
+.wedding-photography-tracker {
+    font-family: 'Great Vibes', cursive;
+    font-size: 48px; /* Larger font size for better visibility */
+    font-weight: bold; /* Bold text */
+    color: #0a0600; /* Dark color for good contrast */
+    text-align: center; /* Center the text */
+    margin: 20px 0; /* Margin for spacing around the heading */
+}
+
+/* General styles for the container */
+.container {
+    background-color: rgba(238, 20, 129, 0.37); /* Sage green with 80% transparency */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 18px; /* Increased base font size */
+}
+
+/* Body background image */
+body {
+    font-family: Arial, sans-serif; /* Default font for other elements */
+    background-image: url('C:/Users/pc/Downloads/PhotographyTracker/background.jpg'); /* Path to your background image */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Fix the background image in place */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    margin: 0;
+    padding: 0;
+}
+
+/* Search bar styling */
+#searchInput {
+    width: 100%; /* Full width of the container */
+    padding: 15px; /* Increased padding inside the search bar */
+    font-size: 18px; /* Larger font size for better readability */
+    border: 1px solid #ddd; /* Border color */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    margin-bottom: 20px; /* Space below the search bar */
+}
+
+/* Styling for table */
+table {
+    width: 100%; /* Full width of the container */
+    border-collapse: collapse; /* Remove spacing between table cells */
+    margin-top: 20px; /* Space above the table */
+}
+
+/* Table header and cell styling */
+th, td {
+    padding: 15px; /* Increased padding inside table cells */
+    border: 1px solid #ddd; /* Border color */
+    text-align: left; /* Align text to the left */
+    font-family: 'Roboto', sans-serif; /* Font for table text */
+    font-size: 18px; /* Increased font size */
+    font-weight: normal; /* Normal font weight */
+}
+
+/* Styling for table headers */
+th {
+    background-color: #f4f4f4; /* Background color for headers */
+    font-family: 'Roboto', sans-serif; /* Font for table headers */
+    font-size: 20px; /* Increased font size for headers */
+}
+
+/* Styling for buttons */
+button {
+    font-family: 'Roboto', sans-serif; /* Font for button text */
+    font-weight: bold; /* Bold text */
+    font-size: 18px; /* Increased font size for button text */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    padding: 12px 24px; /* Increased padding inside the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 4px; /* Rounded corners */
+    margin-top: 10px; /* Space above the button */
+}
+
+/* Styling for teal buttons */
+button.teal {
+    background-color: #23b0c9; /* Teal blue color */
+}
+
+/* Styling for purple buttons */
+button.purple {
+    background-color: #800080; /* Purple color */
+}
+
+/* Small circular marker for partial capture */
+.partial-indicator {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(238, 241, 17); /* Yellow color for partially captured */
+    border-radius: 50%; /* Make it circular */
+    margin-left: 5px; /* Add a small space */
+    vertical-align: middle; /* Align it with text */
+}
+

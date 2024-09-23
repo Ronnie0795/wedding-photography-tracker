@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Photography Tracker</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+    <style>
+        /* Basic styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            font-family: 'Halimum', cursive;
+            font-weight: bold;
+            color: #330427;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f4f4f4;
+            font-family: 'Halimum', cursive; /* Change font for header cells */
+            font-weight: bold;
+            color: #800080; /* Optional: Change color of the text in header cells */
+        }
+
+        button {
+            padding: 8px 12px;
+            border: none;
+            font-family: 'Halimum', cursive;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .partial-indicator {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            background-color: rgb(228, 8, 81);
+            border-radius: 50%;
+            margin-left: 5px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Wedding Photography Tracker</h1>
+        <input type="text" id="searchInput" placeholder="Search for a guest..." oninput="searchGuest()">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Category</th>
+                    <th>Photo Taken</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="guestTableBody">
+                <!-- Guest list rows will be inserted here by JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="app.js"></script> <!-- Link to the external JavaScript file -->
+</body>
+</html>
